@@ -1,0 +1,21 @@
+/* Write your code here. */
+.list-element {
+  list-style-type: none;
+}
+.emoji-card {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff33;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.emoji-card-image {
+  height: 90px;
+}
+@media screen and (max-width: 767px) {
+  .emoji-card-image {
+    height: 30px;
+  }
+}

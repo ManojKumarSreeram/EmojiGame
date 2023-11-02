@@ -1,0 +1,22 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.unordered-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 700px;
+}
+@media screen and (max-width: 767px) {
+  .unordered-list {
+    width: 400px;
+  }
+}
+.emoji-cards-won-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

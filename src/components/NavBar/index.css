@@ -1,0 +1,52 @@
+/* Write your code here. */
+.navbar-container {
+  background-color: #ffffff33;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.emoji-logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.logo-image {
+  height: 60px;
+}
+.emoji-pera {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+.emoji-score-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+.score-pera {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  padding-right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-container {
+    justify-content: space-around;
+  }
+  .logo-image {
+    height: 35px;
+  }
+  .emoji-pera {
+    font-size: 10px;
+  }
+  .emoji-score-container {
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .score-pera {
+    font-size: 10px;
+  }
+}
